@@ -65,6 +65,6 @@ jobs:
       - name: Apply
         run: |-
           kubectl apply -f k8s
-          kubectl set image deployments/server-deployment server=dave123456789/multi-server-k8s-pgfix-gh:${{ env.SHA }}
-          kubectl set image deployments/client-deployment client=dave123456789/multi-client-k8s-gh:${{ env.SHA }}
-          kubectl set image deployments/worker-deployment worker=dave123456789/multi-worker-k8s-gh:${{ env.SHA }}
+          kubectl set image deployments/server-deployment server=dave123456789/multi-server-k8s-pgfix-gh-wif:${{ env.SHA }}
+          kubectl set image deployments/client-deployment client=dave123456789/multi-client-k8s-gh-wif:${{ env.SHA }}
+          kubectl set image deployments/worker-deployment worker=dave123456789/multi-worker-k8s-gh-wif:${{ env.SHA }}
