@@ -18,7 +18,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React Fib calculator
+            Github with WIF Learn React Fib calculator
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
